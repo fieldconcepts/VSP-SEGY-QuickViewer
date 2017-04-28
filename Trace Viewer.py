@@ -5,7 +5,7 @@ import pylab
 
 #importing segy file fromm file
 
-data = obspy.read("C:/Users/ben.kaack/Documents/Operations/3. Projects/20170127 Precision Impulse/Dataset.sgy", format="SEGY")
+data = obspy.read("C:/Users/Documents/Operations/3. Projects/20170127 Precision Impulse/Dataset.sgy", format="SEGY")
 st = data[0:25]
 meta = str(st[0])
 
